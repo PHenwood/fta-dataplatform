@@ -8,7 +8,7 @@ See our [FastTrack for Azure landing page](https://github.com/Azure/FastTrackFor
 In this folder you will find a number of walkthroughs that relate to common activities when working with Azure SQL Database.  These include:
 
 * Creating a logical server and sample database
-* Importing an exsting databse from a Virtual Machine or on premises machine
+* Importing an existing databse from a Virtual Machine or on premises machine
 * Exporting an existing database to a .bacpac file ready for importing
 * Scaling a Database up and down
 * How to use the DTU calculator
