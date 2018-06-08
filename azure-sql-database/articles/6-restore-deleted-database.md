@@ -21,7 +21,7 @@ Self-guided (15 minutes approx)
 
 # Checking for an existing backup
 
-Before continuing you need to delete the database that you created in earlier.  Before deleting the database you need to ensure that teh database has been backed up by the Azure SQL Server.  To do this you need to:
+Before continuing you need to delete the database that you created in earlier.  Before deleting the database you need to ensure that the database has been backed up by the Azure SQL Server.  To do this you need to:
 
 * Go to the Azure portal [https://portal.azure.com](https://portal.azure.com)
 * From the left hand navigation menu select **SQL Databases**
@@ -43,7 +43,7 @@ To delete the database you need to:
 * click on the Delete button in the top menu of the current screen
 * Press *yes* on the next prompt
 
-The Database will now be deleted but it make take a couple of minutes for the option to restore the database to become available.
+The Database will now be deleted but it may take a couple of minutes for the option to restore the database to become available.
 
 # Restoring a Deleted Database
 
@@ -63,4 +63,4 @@ Providing a few minutes have passed since you deleted the database, the deleted 
 * Click OK to start the restore.
 
 >**NOTE**
-> You can't change the point in time for teh restore, it will restore the database to the last know backup point, which will be the time at which the database was deleted.
+> You can't change the point in time for the restore, it will restore the database to the last known backup point, which will be the time at which the database was deleted.
