@@ -23,21 +23,21 @@ Self-guided (5 minutes approx)
 
 # Capturing Performance Data
 
-The [DTU calculator](http://dtucalculator.azurewebsites.net/) is a website in Azure that allows the user to upload performance data captures in perfmon, relating to a local instance of SQL Server.  he DTU calculator analyses this data and then makes recommendations on the performance tier to use when migrating that server to Azure SQL Database.
+The [DTU calculator](http://dtucalculator.azurewebsites.net/) is a website in Azure that allows the user to upload performance data captured in perfmon, relating to a local instance of SQL Server.  The DTU calculator analyses this data and then makes recommendations on the performance tier to use when migrating that server to Azure SQL Database.
 
-The DTU calculator can provide guidance for Single databases as well as elastic pool
+The DTU calculator can provide guidance for Single databases as well as an elastic pool.
 
-To capture the correct performance data, you should download and run the collection scripts provides on the DTU calculator website.  There are two flavors of script:
+To capture the correct performance data, you should download and run the collection scripts provided on the DTU calculator website.  There are two flavors of script:
 * [Command Line](http://dtucalculator.azurewebsites.net/Downloads/sql-perfmon-cl.zip)
 * [PowerShell](http://dtucalculator.azurewebsites.net/Downloads/sql-perfmon-ps.zip)
 
-The scrips are configured to capture performance data ever seconds for 1 hour in CSV format.  You can exit the script execution early but the more data the you have, the better the recommendation will be
+The scripts are configured to capture performance data ever second for 1 hour in CSV format.  You can exit the script execution early but the more data the you have, the better the recommendation will be.
 
 # Uploading for Analysis
 
 Once you have captured the performance data you can upload the CSV into the calculator using the Upload field on the Webpage.
 
-* Unzip the sample csv file fro the pre-requisites zip file
+* Unzip the sample csv file from the pre-requisites zip file
 * Upload to the calculator as a single database sample
 * Enter **4** as the number of cores
 
