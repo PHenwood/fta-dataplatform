@@ -12,7 +12,7 @@ By the end of this module you will be able to:
 * Scale up and down a Database using the portal
 
 ## Pre-Requisites
-* To complete this module you will need to have completed the create server and import database module
+* To complete this module you will need to have completed the create server and import database modules
 
 # Estimated time to complete this module:
 Self-guided (10 minutes approx)
@@ -34,7 +34,7 @@ From the Pricing blade, select the **Standard** tab and the move the DTU slider 
 
 Click **Apply** for the scale operation to take place.
 
-**NOTE** *while a scale operation is taking place, the database is still accessible and you can connect tot he database using SQL Server Management Studio (SSMS) to test this.*
+**NOTE** *while a scale operation is taking place, the database is still accessible and you can connect to the database using SQL Server Management Studio (SSMS) to test this.*
 
 # Scaling Up a Database
 
